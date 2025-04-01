@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 
 export default function Hero() {
   return (
-    <div className="relative mx-auto my-10 flex max-w-7xl flex-col items-center justify-center mt-28" id="home">
+    <div className="relative mx-auto my-10 flex max-w-7xl flex-col items-center justify-center lg:mt-28 font-jost" id="home" >
      
       <div className="absolute inset-y-0 left-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80">
         <div className="absolute top-0 h-40 w-px bg-gradient-to-b from-transparent via-blue-500 to-transparent" />
@@ -63,7 +63,7 @@ export default function Hero() {
           className="relative z-10 mt-8 flex flex-wrap items-center justify-center gap-4"
         >
           <button className="w-60 transform rounded-lg bg-black px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200">
-          Hire me
+          <a href="/resume.pdf" download={"/resume.pdf"}>Hire me</a>
           </button>
           <button className="w-60 transform rounded-lg border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
             Contact Me
