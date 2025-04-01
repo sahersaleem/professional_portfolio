@@ -11,9 +11,18 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        gray:"#888888"
       },
+      fontFamily:{
+        jost:"var(--font-geist-jost)"
+      },
+      screens:{
+        xs:"200px"
+      }
+      
     },
   },
+
   plugins: [],
 };
 export default config;
